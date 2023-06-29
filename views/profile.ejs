@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+<body>
+    <h1>This is Profile Page <br>
+    <% for( let index = 0; index < mahasiswa.length; index++ ) { %>
+        <% const dataMahasiswa = mahasiswa[index] %>
+        <ul>
+            <li>NIM: <%= dataMahasiswa.nim %> <br>
+                Name: <%= dataMahasiswa.name %></li>
+        </ul>
+    <% } %></h1>
+</body>
+</html>
